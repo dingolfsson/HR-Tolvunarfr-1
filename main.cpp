@@ -13,7 +13,14 @@ void r_wloop(int x, int y);
 int main () {
 
     welcome();
-    
+
+    int foo[10];
+
+    for (int i = 0; i < 10; i++) {
+        cin >> foo[i];
+        cout << foo[i] << endl;
+    }
+
     int a;
     int b;
     cout << "telja fra : ";
