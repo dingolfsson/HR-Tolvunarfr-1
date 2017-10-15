@@ -6,9 +6,9 @@ using namespace std;
 int user_input(){
     int input = 0;
 
-    while (input < 1 || input > 9) {
+    while (input < 1 || input > 9 || !isdigit(input)) {
         cin >> input;
-        if (input < 1 || input > 9) {
+        if (input < 1 || input > 9 || !isdigit(input)) {
             cout << "Out of range!" << endl;
         }
     }
