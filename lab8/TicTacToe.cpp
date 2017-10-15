@@ -22,7 +22,7 @@ void mark_array(char my_array[][3], bool players){
 
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            if (i * 2 + i + j == inp) {
+            if (i * 2 + i + j + 1 == inp) {
                 if (my_array[i][j] == 'Y' || my_array[i][j] == 'X') {
                     cout << "ILLEGAL MOVE" << endl;
                 } else if (players) {
@@ -70,7 +70,7 @@ int main()
     while (true) {
         mark_array(my_array, players);
         printTicTac(my_array);
-        if (checkWinner) return;
+        //if (checkWinner) return;
         players = !players;
     }
 
