@@ -1,18 +1,17 @@
-// classes and uniform initialization
 #include <iostream>
+#include "Club.h"
 using namespace std;
 
-class Club {
-    string stadiumName;
-    int age;
-  public:
-    void Stadium(string param1) { stadiumName = param1; }
-    string getStadium() {return stadiumName;}
-};
-
 int main () {
+
   Club Chelsea;
-  Chelsea.Stadium("S. Bridge");
-  cout << "Chelsea´s stadium " << Chelsea.getStadium() << '\n';
+  Chelsea.setStadiumValues("S. Bridge", 114);
+  cout << "Chelsea Stadium Name: " << Chelsea.getStadiumName() << endl;
+  cout << "Chelsea Clubs Age: " << Chelsea.getStadiumAge() << endl;
+
+  Club United;
+  United.setStadiumValues("Old Trafford", 142);
+  cout << "Uniteds Stadium Name: " << United.getStadiumName() << endl;
+  cout << "Uniteds Clubs Age: " << United.getStadiumAge() << endl;
   return 0;
 }
