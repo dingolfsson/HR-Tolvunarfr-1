@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1509037237 source:c:\users\hafst\downloads\forritun t-111\ehv test\time\main.cpp
+	<iostream>
+	"Time.h"
+
+1509037516 c:\users\hafst\downloads\forritun t-111\ehv test\time\include\time.h
+	<iostream>
+
+1509037946 source:c:\users\hafst\downloads\forritun t-111\ehv test\time\src\time.cpp
+	"Time.h"
+
+1509037237 source:c:\users\hafst\downloads\forritun t-111\verkenfi10\time\main.cpp
+	<iostream>
+	"Time.h"
+
+1509038900 c:\users\hafst\downloads\forritun t-111\verkenfi10\time\include\time.h
+	<iostream>
+
+1509038864 source:c:\users\hafst\downloads\forritun t-111\verkenfi10\time\src\time.cpp
+	"Time.h"
+

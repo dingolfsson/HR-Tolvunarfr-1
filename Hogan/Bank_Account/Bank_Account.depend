@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1509057970 source:c:\users\hafst\downloads\forritun t-111\verkenfi10\bank_account\main.cpp
+	<iostream>
+	"BankAccount.h"
+
+1509111968 c:\users\hafst\downloads\forritun t-111\verkenfi10\bank_account\include\bankaccount.h
+	<iostream>
+	<string>
+
+1509112694 source:c:\users\hafst\downloads\forritun t-111\verkenfi10\bank_account\src\bankaccount.cpp
+	"BankAccount.h"
+
