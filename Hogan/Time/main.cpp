@@ -1,9 +1,7 @@
 #include <iostream>
-#include "Time.h"
-
+#include "include/Time.h"
 
 using namespace std;
-
 
 int main()
 {
@@ -22,17 +20,12 @@ int main()
     t1 = t3 - t4;
     cout << "Time1: " << t1;
 
-    if (t1 < t3)
-        cout << "Time1 < Time3" << endl;
-    else
-        cout << "Time3 >= Time1" << endl;
+    if (t1 < t3) cout << "Time1 < Time3" << endl;
+    else cout << "Time3 >= Time1" << endl;
 
     Time t5 = t2 + Time(0,0,1);
-    if (t5 < t2)
-        cout << "Time5 < Time2" << endl;
-    else
-        cout << "Time5 >= Time2" << endl;
-
+    if (t5 < t2) cout << "Time5 < Time2" << endl;
+    else cout << "Time5 >= Time2" << endl;
 
     cout << "Almost midnight: " << Time(0,0,0) - Time(0,0,1) << endl;
 
