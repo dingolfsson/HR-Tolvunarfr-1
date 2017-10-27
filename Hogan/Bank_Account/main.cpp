@@ -1,20 +1,23 @@
 #include <iostream>
-#include "BankAccount.h"
+#include "include/BankAccount.h"
 
 using namespace std;
 
-int main()
-{
+int main() {
+
 	BankAccount account;
 	account.readData();
-	cout << account;
+	cout << endl << account;
 	account.update();
 	cout << account;
 
-	if (account.withdraw(32.5)) {
+	double withd;
+	cout << "How much to withdraw: ";
+	cin >> withd;
+
+	if (account.withdraw(withd)) {
 		cout << "Amount withdrawn for account " << account.getNumber() << endl;
-	}
-	else {
+	} else {
 		cout << "Unable to withdraw from account " << account.getNumber() << endl;
 	}
 
